@@ -11,5 +11,3 @@ def find_missing(list1, list2):
 		return list(set(list1)^set(list2))[0]
 
 
-#print (find_missing([4, 6, 8], [4, 6, 8, 10]))
-
