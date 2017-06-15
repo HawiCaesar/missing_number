@@ -8,6 +8,6 @@ def find_missing(list1, list2):
 		return 0
 
 	else:
-		return list(set(list1)^set(list2))[0]
+		return list(set(list1)^set(list2))[0] # return symmetric difference between the lists 
 
 
